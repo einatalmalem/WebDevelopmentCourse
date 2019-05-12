@@ -1,0 +1,404 @@
+﻿
+body {
+    background-color: #DBDBDB;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+#container {
+    width: 960px;
+     background-color: rgba(255, 255, 235, 0.3);
+     font-weight: bold;
+}
+
+#logo{
+   text-align:center;
+    margin-right:298px;
+    margin-top:-220px;
+  	width:650px;
+	height:100px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#indext{
+     margin-top:40px;
+ }
+ 
+#indext a{
+     text-decoration:none;
+}
+p{
+    font-size: 16px;
+}
+h2{
+    background-color:#F22E52;
+    color:black;
+}
+#buttonUp{
+    background-color:#F22E52;
+    color:black;
+    border:#f22e52;
+}
+#buttonUp:hover{
+    background-color:#D91E2E;
+    border:#D91E2E;
+}
+#headnav{
+  direction: rtl;
+  text-align:right;
+  
+}
+#me{
+    height:auto;
+    width: 150px;
+}
+#hanukkah{
+    height:auto;
+    width: 300px;
+}
+#nav{
+    height:52px;
+   
+   
+}
+
+#formf{
+   
+    margin-left:100px;
+
+}
+#mail {
+    width:50px ; height:50px;
+}
+#mail:hover {
+      -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(11deg);
+}
+/*עצמי על*/
+#logo2{
+   text-align:center;
+  
+  	width:960px;
+	height:50px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#a03{
+      background-color:rgba(255,255,255,0.7);
+      text-decoration:underline;
+}
+/*ממוחשבת גרפיקה*/
+#rit {
+      height: 290px;
+    width: 402px;
+  font-size:40px;
+   
+   
+}
+#rit:hover{
+    background-position-x:right;
+}
+#poster {
+    height:385px;
+    width:272px;
+    background-image: url(../image/מרכזי.jpg);
+}
+#poster:hover{
+    background-position-x:right;
+}
+
+#finele{
+      height:215px;
+    width:172px;
+
+    margin-bottom:208px;
+  
+}
+
+
+/*הבית דף*/
+#circle{
+    width:300px;
+	height:300px;
+   	border-radius: 50%;
+	background-color:mistyrose;
+    border: 3px solid #000000;
+}
+#circle2 {
+    margin-right: 7px;
+    margin-top: 7px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    z-index: 1;
+    background-image: url(../image/1.jpg);
+    position: relative;
+    -webkit-animation: myfirst 5s infinite alternate;
+    border: 3px solid #000000;
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+      
+    }
+    25% {
+   
+    }
+    50% {
+       
+    }
+    75% {
+     
+    }
+    
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+     0% {
+       
+    }
+    25% {
+        background-image: url(../image/portfolio.png);
+    }
+    50% {
+        background-image: url(../image/a2.png);
+    }
+    75% {
+        background-image: url(../image/a2.png);
+    }
+    100% {
+        background-image: url(../image/a2.png);
+    }
+}
+#one {
+    height: 223px;
+    width: 223px;
+    background-image: url(../image/סוכריות.png);
+    background-repeat: no-repeat;
+    background-size: 223px,227px;
+}
+#one:hover {
+        background-position-x: right;
+    }
+#one p{
+      height: 223px;
+    width: 223px;
+    opacity:0;
+}
+ #one p:hover{
+      height: 223px;
+    width: 223px;
+    opacity:1;
+     
+}
+#txt2{
+   padding-top:25px;
+    padding-left:36px;
+   text-align:center;
+   font-size:38pt;
+   color:black;  
+   text-decoration:none;
+}
+
+#two {
+    margin-bottom: 20px;
+    height: 223px;
+    width: 223px;
+    background-image: url(../image/סוכריות.png);
+    background-repeat:no-repeat;
+    background-size:223px,227px;
+    
+}
+#two:hover{
+    background-position-x:right;
+
+}
+#two p{
+      height: 223px;
+    width: 223px;
+    opacity:0;
+}
+#two p:hover{
+      height: 223px;
+    width: 223px;
+    opacity:1;
+     
+}
+#txt{
+   padding-top:75px;
+   padding-left:22px;
+   text-align:center;
+   font-size:38pt;
+   color:black;  
+   text-decoration:none;
+}
+#tree {
+    height: 223px;
+    width: 223px;
+    background-image: url(../image/סוכריות.png);
+    background-repeat: no-repeat;
+    background-size: 223px,227px;
+}
+#tree:hover{
+   background-position-x:right;
+}
+#tree p{
+      height: 223px;
+    width: 223px;
+    opacity:0;
+}
+#tree p:hover{
+      height: 223px;
+    width: 223px;
+    opacity:1;
+     
+}
+#txt3{
+   padding-top:75px;
+    padding-left:38px;
+   text-align:center;
+   font-size:38pt;
+   color:black;  
+   text-decoration:none;
+}
+
+#facebook {
+
+    height: 88px;
+    width: 88px;
+    background-image: url('../image/for.png');
+}
+#facebook:hover{
+    background-position-x:right;
+}
+#facebook p{
+      height: 88px;
+    width: 88px;
+    opacity:0;
+}
+#facebook p:hover{
+      height: 88px;
+    width: 88px;
+    opacity:1;
+     
+}
+#txt4{
+   padding-top:30px;
+   text-align:center;
+   font-size:16pt;
+   color:black;  
+   text-decoration:none;
+}
+
+
+#home {
+    width: 88px;
+    height: 88px;
+    background-image: url('../image/forff.png');
+}
+#home:hover {
+
+    background-position-x:right;
+}
+#home p{
+      height: 88px;
+    width: 88px;
+    opacity:0;
+}
+#home p:hover{
+      height: 88px;
+    width: 88px;
+    opacity:1;
+     
+}
+#txt5{
+    padding-top:30px;
+   text-align:center;
+   font-size:16pt;
+   color:black;  
+   text-decoration:none;
+}
+
+/*ראשי עבודות תיק עמוד*/
+#work{
+ padding-right:150px;
+}
+#fl {
+   height: 224px;
+    width: 224px;
+    background-image: url(../image/myposter_einat_almalem.png);
+}
+#fl:hover {
+
+    background-position-x:right;
+}
+#fl p{
+   height: 224px;
+    width: 224px;
+    opacity:1;
+}
+#fl p:hover{
+     height: 224px;
+    width: 224px;
+    opacity:0;
+     
+}
+#txt6{
+   padding-top:100px;
+   padding-left:40px;
+   text-align:center;
+   font-size:16pt;
+   color:black;  
+   text-decoration:none;
+}
+
+#gra {
+     height: 300px;
+    width: 300px;   
+    
+}
+.modal-body img {
+    height: 224px;
+    width: 224px;
+
+}
+#gra:hover {
+    background-position-x: right;
+}
+#gra p{
+   height: 224px;
+    width: 224px;
+    opacity:1;
+}
+#gra p:hover{
+     height: 224px;
+    width: 224px;
+    opacity:0;
+     
+}
+#txt7{
+   padding-top:100px;
+   padding-left:40px;
+   text-align:center;
+   font-size:16pt;
+   color:black;  
+   text-decoration:none;
+}
+
+
+ 
+
+
+
+     
+
+#txt8{
+   padding-top:100px;
+   padding-left:40px;
+   text-align:center;
+   font-size:16pt;
+   color:black;  
+   text-decoration:none;
+}

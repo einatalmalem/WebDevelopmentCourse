@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>תיק עבודות | עינת אלמלם</title>
+    <meta name="description" content="אתר תוצרי התואר של עינת אלמלם סטודנטית שנה א' בפקולטה לטכנולוגיות למידה'" />
+    <meta name="keywords" content="hit, HIT, student, einat, telem, TELEM " />
+    <meta name="author" content="עינת אלמלם, einat almalem" />
+
+    <!-- CSS -->
+    <!--Bootstrap 3 css file-->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Bootstrap non-responsive css file (just add class "non-responsiv" to the body tag)-->
+    <link href="bootstrap/css/bootstrap-non-responsive.css" rel="stylesheet" />
+    <!--Bootstrap fixes for hebrew (add class='rtl' to the body tag)-->
+    <link href="bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <!--Bootstrap them - for changing the shape and colors of bootstrap objects like buttons-->
+    <!--<link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" />-->
+    <!--The only file you should right your css-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--Bootstrap library-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="rtl non-responsive">
+    <div id="container" class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse ">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="form.html">צרו קשר</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" a href="protfolio.html">
+                                תיק עבודות
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a href="Visual.html">תקשורת חזותית</a></li>
+                                <li><a href="Graphic.html">גרפיקה ממוחשבת</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li><a href="myself.html">על עצמי</a></li>
+                        <li><a href="index.html">דף הבית</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <div class="row" id="cont">
+            <div class="col-xs-4 col-xs-offset-4" id="formf">
+                <h1>שמור על קשר ;)</h1>
+                <p>
+                    צור קשר ואשוב אליך בהקדם
+                    <img src="image/mail.png" id="mail" />
+                </p>
+               
+                <form>
+                    <input type="hidden" id="myEmail" value="einat7881@gmail.com" />
+
+                    <div class="form-group">
+
+
+                        <label for="fullNameInput" >שם מלא</label>
+                        <input type="text" class="form-control" autocomplete="name" id="fullNameInput" placeholder="שם מלא" tabindex="1">
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="emailInput">דוא"ל</label>
+                        <input type="email" class="form-control" autocomplete="email" id="emailInput" placeholder="דואר אלקטרוני" tabindex="2">
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="emailInput">מספר טלפון</label>
+                        <input type="tel" class="form-control" autocomplete="tel" id="phoneInput" placeholder="מספר טלפון" tabindex="2">
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="moreDetailsTextArea">כתוב כאן הודעתך</label>
+                        <textarea rows="6" class="form-control" tabindex="10"></textarea>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="checkbox">
+                            <input type="checkbox" tabindex="11"> אני מעוניין לקבל מייל בעת העלאת תוכן חדש לאתר 
+                        </label>
+                    </div>
+
+                    <div class="row">
+                        <input type="submit" id="buttonUp" class="btn btn-primary col-xs-5 col-xs-offset-3" value="שלח פנייה" />
+
+
+                        <div id="feedback" class="" col-xs-7 col-xs-offset-2">
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+ 
+        </div>
+
+
+</body>
+</html>
